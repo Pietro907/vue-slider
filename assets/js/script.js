@@ -16,5 +16,13 @@ Questo significa che per la parte di markup possiamo recuperare html e css dell'
 il riciclo spesso va a braccetto con le funzioni! 
 Sapendole sfruttare bene, l'esercizio si riduce a poche righe ;)
 
-
 */
+
+//Creo la nostra createApp
+
+const {createApp} = Vue;
+    createApp({
+        data(){
+            return
+        }
+    }).mount('#app')
